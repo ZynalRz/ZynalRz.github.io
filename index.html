@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+      
+      <!--=============== Animate CSS ===============-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
+        
+        <!-- ANIMATE ON SCROLL-->
+          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive portfolio website - Zynal_Inc</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+           <a href="index.html" class="nav__logo">Rz</a>
+           
+           <div class="nav__menu" id="nav-menu">
+             <ul class="nav__list">
+               <li class="nav__item">
+                 <a href="index.html" class="nav__link">Home</a>
+               </li>
+               
+               <li class="nav__item">
+                 <a href="about.html" class="nav__link">About Me</a>
+               </li>
+               
+               <li class="nav__item">
+                 <a href="work.html" class="nav__link">Portfolio</a>
+               </li>
+               
+               <li class="nav__item">
+                 <a href="contact.html" class="button">Contact Me</a>
+               </li>
+             </ul>
+             
+             <!---close buttor--->
+             <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+             </div>
+           </div>
+           
+           <div class="nav__actions">
+             <!-- theme button-->
+             <i class="ri-moon-line change-theme" id="theme-button"></i>
+             
+             <!--toggle-->
+             <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-apps-2-line"></i>
+             </div>
+           </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section">
+            <div class="home__rectangle"></div>
+            
+            <div class="home__container container grid">
+              <div class="home__perfil perfil"> 
+               <div class="perfil__content animate__animated animate__backInDown animate__delay-1s">
+                 <img src="assets/img/home-perfil.png" alt="image" class="perfil__img">
+               </div>
+               </div>
+               
+                <div class="home__content grid">
+                  <div class="home__data grid">
+                    <h1 class="home__name animate__animated animate__lightSpeedInRight animate__delay-0.6s">Zaenal Arifin</h1>
+                    
+                    <div class="featured-name">
+                    <h2 class="home__profesional animate__animated animate__lightSpeedInLeft animate__delay-0.9s">I'm a <span class="typedText"></span> </h2>
+                    </div>
+              
+                    
+                    <div class="home__social animate__animated animate__fadeInUpBig animate__delay-1.2s">
+                      <a href="https://github.com/ZynalRz"target="_blank" class="home_social-link">
+                        <i class="ri-github-fill"></i>
+                      </a>
+                      
+                      <a href="https://youtube.com/@zmovie4322?si=lCCJienOtyHWVQi3"target="_blank" class="home_social-link">
+                        <i class="ri-youtube-fill"></i>
+                      </a>
+                      
+                      <a href="https://www.instagram.com/zynal_inc?igsh=ZThvcWdlM29mMXNv"target="_blank" class="home_social-link">
+                        <i class="ri-instagram-fill"></i>
+                      </a>
+                     </div>
+                  </div>
+                  
+                  <a href="assets/pdf/Zyn Cv.pdf" Download=""class="home__button button animate__animated animate__slideInUp animate__delay-0.6s">Download CV</a>
+                </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <h2 data-aos="fade-down" data-aos-duration="500" class="section__title">
+              The Services <br> 
+              I Offer
+            </h2>
+            
+            <div class="services__container container grid">
+              <article data-aos="fade-up" data-aos-duration="1000" class="services__card">
+                <i class="ri-code-s-slash-line services__icon"></i>
+                <h2 class="services__title">Web Developer</h2>
+                <p class="services__description">Beautiful and elegant designs with 
+                 interfaces that are intuitive, efficient and 
+                 pleasant to use for the user.
+                 </p>
+                 
+                 <button class="services__button button">Know More</button>
+                 
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <i class="ri-close-line services__modal-close"></i>
+                    
+                    <h2 class="services__modal-title">Web Developer</h2>
+                    
+                    <ul class="services__modal-list grid">
+                      <li class="services__modal-item">
+                        Create professional and quality websites at the client's request.
+                      </li>
+                      
+                      <li class="services__modal-item">
+                        I do web design in prototypes.
+                      </li>
+                      
+                      <li class="services__modal-item">
+                        I position your website with advanced SEO.
+                      </li>
+                      
+                      <li class="services__modal-item">
+                        I solve performance problems on web pages.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+              
+              <article data-aos="fade-up" data-aos-duration="1000" class="services__card">
+                <i class="ri-line-chart-line services__icon"></i>
+                <h2 class="services__title">Data Science</h2>
+                <p class="services__description">Crafting insightful and visually appealing data visualizations that convey complex information with clarity.
+                 </p>
+                 
+                 <button class="services__button button">Know More</button>
+                 
+                 <div class="services__modal">
+                  <div class="services__modal-content">
+                    <i class="ri-close-line services__modal-close"></i>
+                    
+                    <h2 class="services__modal-title">Data Science</h2>
+                    
+                    <ul class="services__modal-list grid">
+  <li class="services__modal-item">
+    Analyze large datasets for insights.
+  </li>
+  
+  <li class="services__modal-item">
+    Develop predictive models.
+  </li>
+  
+  <li class="services__modal-item">
+    Visualize data effectively.
+  </li>
+  
+  <li class="services__modal-item">
+    Implement machine learning algorithms.
+  </li>
+</ul>
+                  </div>
+                </div>
+              </article>
+              
+              <article data-aos="fade-up" data-aos-duration="1000" class="services__card">
+                <i class="ri-computer-line services__icon"></i>
+                <h2 class="services__title">Cyber Security </h2></h2>
+                <p class="services__description">Designing robust and secure systems with an emphasis on both functionality and resilience against cyber threats.
+                 </p>
+                 
+                 <button class="services__button button">Know More</button>
+                 
+                 <div class="services__modal">
+                  <div class="services__modal-content">
+                    <i class="ri-close-line services__modal-close"></i>
+                    
+                    <h2 class="services__modal-title">Cyber Security</h2>
+                    
+                    <ul class="services__modal-list grid">
+  <li class="services__modal-item">
+    Conduct security assessments.
+  </li>
+  
+  <li class="services__modal-item">
+    Implement intrusion detection systems.
+  </li>
+  
+  <li class="services__modal-item">
+    Harden network infrastructure.
+  </li>
+  
+  <li class="services__modal-item">
+    Respond to security incidents.
+  </li>
+</ul>
+                  </div>
+                </div>
+              </article>
+            </div>
+         </section>
+
+         <!--==================== WORK ====================-->
+         <section class="work section">
+            <h2 data-aos="flip-down" data-aos-duration="1000" class="section__title">
+              My Most <br>
+              Recent Works 
+            </h2>
+            
+            <div class="work__container container grid">
+              <article data-aos="zoom-out-down" data-aos-duration="1000" class="work__card">
+                <a href="#" class="work__link">
+                  <img src="assets/img/work-1.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-circle-line work__icon"></i>
+                </a>
+                
+                <h2 class="work__title">Creative Website</h2>
+                <span class="work__subtitle">Website Design</span>
+              </article>
+              
+              <article data-aos="zoom-out-down" data-aos-duration="1000" class="work__card">
+                <a href="#" class="work__link">
+                  <img src="assets/img/work-2.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-circle-line work__icon"></i>
+                </a>
+                
+                <h2 class="work__title">Creative Website</h2>
+                <span class="work__subtitle">Website Design</span>
+              </article>
+              
+              <article data-aos="zoom-out-down" data-aos-duration="1000"class="work__card">
+                <a href="#" class="work__link">
+                  <img src="assets/img/work-3.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-circle-line work__icon"></i>
+                </a>
+                
+                <h2 class="work__title">Neat Data </h2>
+                <span class="work__subtitle">Data Science</span>
+              </article>
+              
+             <article data-aos="zoom-out-up" data-aos-duration="1000" class="work__card">
+                <a href="#" class="work__link">
+                  <img src="assets/img/work-4.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-circle-line work__icon"></i>
+                </a>
+                
+                <h2 class="work__title">Neat Data</h2>
+                <span class="work__subtitle">Data Science</span>
+              </article>
+              
+              <article data-aos="zoom-out-up" data-aos-duration="1000" class="work__card">
+                <a href="#" class="work__link">
+                  <img src="assets/img/work-5.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-circle-line work__icon"></i>
+                </a>
+                
+                <h2 class="work__title">Internet Security </h2>
+                <span class="work__subtitle">Cyber Security</span>
+              </article>
+              
+              <article data-aos="zoom-out-up" data-aos-duration="1000" class="work__card">
+                <a href="#" class="work__link">
+                  <img src="assets/img/work-6.png" alt="image" class="work__img">
+                  <i class="ri-arrow-right-circle-line work__icon"></i>
+                </a>
+                
+                <h2 class="work__title">Internet Security</h2>
+                <span class="work__subtitle">Cyber Security</span></span>
+              </article>
+            </div>
+         </section>
+
+         <!--==================== TESTIMONIAL ====================-->
+         <section class="testimonial section">
+            <h2 data-aos="zoom-in-left" data-aos-duration="1000" class="section__title">
+              What They Say <br> 
+              About Me? 
+            </h2>
+            
+            <div data-aos="zoom-in-right" data-aos-duration="1000" class="testimonial__container container">
+              <div class="testimonial__swiper swiper">
+                <div class="swiper-wrapper">
+                <article class="testimonial__card swiper-slide">
+                  <div class="testimonial__border">
+                    <img src="assets/img/testimonial-1.png" alt="Dede Rezka" class="testimonial__img">
+                  </div>
+                  
+                  <h2 class="testimonial__name">
+                    Rezka Maulia Amir
+                  </h2>
+                  <h4 class="testimonial__title">Student At Palimanan 1 State Junior High School</h4>
+                  <p class="testimonial__description">
+                    Zynalll has a compassionate heart, displays exceptional intelligence, isn't conceited, and consistently extends a helping hand to meee. 😇
+                  </p>
+                </article>
+                
+                <article class="testimonial__card swiper-slide">
+                  <div class="testimonial__border">
+                    <img src="assets/img/testimonial-2.png" alt="Bu Elaa" class="testimonial__img">
+                  </div>
+                  
+                  <h2 class="testimonial__name"> Nurlaela S.Tr.Kom
+                  </h2>
+                  <h4 class="testimonial__title">Teacher At Astrindo Vocational High School</h4>
+                  <p class="testimonial__description">Zaenal Arifin, commonly known as Zaenal, is an intelligent and responsive student, capable of quick thinking. His good, orderly, and efficient demeanor, coupled with competitiveness and ambition in all aspects, makes him one of the best students to serve as a role model. His passion for learning is always ablaze and worthy of emulation.
+                  </p>
+                </article>
+                
+                <article class="testimonial__card swiper-slide">
+                  <div class="testimonial__border">
+                    <img src="assets/img/testimonial-3.png" alt="Armi" class="testimonial__img">
+                  </div>
+                  
+                  <h2 class="testimonial__name">
+                    Armi Arsyiamalia
+                  </h2>
+                  <h4 class="testimonial__title">Student At Tegal City 5 State Senior High School</h4>
+                  <p class="testimonial__description">
+                    My view on Zaenal is that he is a friendly, cool, and somewhat reserved person. He possesses good intelligence, and people might initially perceive him as quiet, but that's not the case.
+                  </p> 
+                </article>
+                
+                <article class="testimonial__card swiper-slide">
+                  <div class="testimonial__border">
+                    <img src="assets/img/testimonial-4.png" alt="jedag jedug" class="testimonial__img">
+                  </div>
+                  
+                  <h2 class="testimonial__name">
+                    Jesica Prichela
+                  </h2>
+                  <h4 class="testimonial__title">Student At Astrindo Vocational High School</h4>
+                  <p class="testimonial__description">
+                    Zaenal Arifin, someone who has successfully motivated me to pursue grades diligently. Because of him, I don't want to fall far behind; you could say I consider ZAENAL MY RIVAL! Even though we're rivals, he still helps me with many things, especially those I'm not familiar with.
+<br>
+<br>
+                      Note: "Bu Ela, please give me points as I've assisted Zaenal in completing a web project."
+                  </p>
+                </article>
+                
+                <article class="testimonial__card swiper-slide">
+                  <div class="testimonial__border">
+                    <img src="assets/img/testimonial-5.png" alt="Sahwa" class="testimonial__img">
+                  </div>
+                  
+                  <h2 class="testimonial__name">
+                    Sahwa Alaigra Putra
+                  </h2>
+                  <h4 class="testimonial__title">Student At Astrindo Vocational High School</h4>
+                  <p class="testimonial__description">
+                    Zenal is one of my good friends; he often helps me when I have a little difficulty with a subject. Although he can be annoying at times, he remains my friend.
+                  </p>
+                </article>
+                
+                <article class="testimonial__card swiper-slide">
+                  <div class="testimonial__border">
+                    <img src="assets/img/testimonial-6.png" alt="She Said Secret Guys :v" class="testimonial__img">
+                  </div>
+                  
+                  <h2 class="testimonial__name">
+                    Celline Ezaeis Vivi
+                  </h2>
+                  <h4 class="testimonial__title">Zenal's friend💐</h4>
+                  <p class="testimonial__description">Zenal's like this cool dude who seems introverted at first glance, but he's totally chill. He's always sharing knowledge, pretty hardworking, although he's not big on saying hi when you bump into him 😏. Overall, he's just super nice. Once you get to know him, he's all about caring and stuff. Not sure what else to type, but yeah, Zenal's a real gem. ✨
+                  </p>
+                </article>
+              </div>
+            </div>
+            
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+           </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section">
+            <div class="contact__container container grid">
+              <h2 data-aos="zoom-in-up" data-aos-duration="1000" class="section__title">
+                Let's Talk <br>
+                About Your Project 
+              </h2>
+              
+              <a href="contact.html" data-aos="zoom-in-down" data-aos-duration="1000" class="contact__button button">Contact Me</a>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+           <div class="footer__content grid">
+             <a href="index.html" data-aos="flip-up" data-aos-duration="1000" class="footer__logo">Rz</a>
+             
+             <ul class="footer__links">
+               <li>
+                 <a href="about.html" data-aos="zoom-in-up" data-aos-duration="1500" class="footer__links">About Me</a>
+               </li>
+               
+               <li>
+                 <a href="work.html" data-aos="zoom-in-up" data-aos-duration="1000" class="footer__links">Portofolio</a>
+               </li>
+               
+               <li>
+                 <a href="contact.html" data-aos="zoom-in-up" data-aos-duration="1500" class="footer__links">Contact Me</a>
+               </li>
+             </ul>
+             
+             <div class="footer__social">
+               <a href="https://github.com/ZynalRz" target="_blank" data-aos="zoom-in-left" data-aos-duration="1000" class="footer__social-link">
+                 <i class="ri-github-fill"></i>
+               </a>
+               
+               <a href="https://youtube.com/@zmovie4322?si=lCCJienOtyHWVQi3" target="_blank" data-aos="zoom-in-down" data-aos-duration="1000" class="footer__social-link">
+                 <i class="ri-youtube-fill"></i>
+               </a>
+               
+               <a href="https://www.instagram.com/zynal_inc?igsh=ZThvcWdlM29mMXNv" target="_blank" data-aos="zoom-in-right" data-aos-duration="1000" class="footer__social-link">
+                 <i class="ri-instagram-fill"></i>
+               </a>
+             </div>
+           </div>
+           
+           <span class="footer__copy">
+             &#169; All Rights Reserved By Zynal_Inc
+           </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+     <a href="#" class="scrollup" id="scroll-up">
+     <i class="ri-arrow-up-line"></i>
+     </a>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      
+      <!-- Animate On Scroll JS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+  <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+      <!--=============== INDEX JS ===============-->
+      <script src="assets/js/index.js"></script>
+   </body>
+</html>
