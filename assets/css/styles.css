@@ -980,8 +980,8 @@ body.dark-theme{
   }
   
   .home__rectangle{
-    width: 30vm;
-    height: 50%;
+    width: 30vw;
+    height: 100%;
   }
   
   .home__container{
